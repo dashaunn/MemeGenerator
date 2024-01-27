@@ -5,9 +5,9 @@ export default function Header() {
         <header className="page-header">
             <div className="logo-container">
                 <img src="./src/images/handsome-squidward.png" alt="" className="logo" />
-                <h1 className="title">Meme Generator</h1>
+                <h2 className="header-title">Meme Generator</h2>
             </div>
-            <h2 className="subtitle">React Course - Project 3</h2>
+            <h4 className="header-subtitle">React Course - Project 3</h4>
         </header>
     )
 }

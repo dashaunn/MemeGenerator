@@ -3,11 +3,12 @@
 }
 
 body {
-    color: white;
+
 }
 
 /* Header component */
 .page-header {
+    color:white;
     display: flex;
     padding: .5rem;
     justify-content: space-between;
@@ -25,13 +26,12 @@ body {
 .logo {
     max-width: 2.6rem;
 }
-.title {
+.header-title {
     font-family: cursive ;
     font-size: 1.5rem;
 }
-.subtitle {
+.header-subtitle {
     font-size: 1rem;
-    font-family: 'Courier New', Courier, monospace;
     font-weight: 300;
     margin-right: 28px;
 }
