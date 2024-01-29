@@ -35,3 +35,33 @@ body {
     font-weight: 300;
     margin-right: 28px;
 }
+
+/* Form component */
+.meme-form {
+    margin: 3rem;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    max-width: 80vw;
+}
+
+.input-container {
+    max-width: 33vw;
+    display: flex;
+    gap: 2rem;
+}
+
+.input {
+    width: 33vw;
+    height: 2.2rem;
+    border: solid #D1D5DB .05rem;
+    border-radius: .5rem;
+    margin-top: .5rem;
+    margin-bottom: 1.5rem;
+}
+
+.form-submit {
+    width: 100vw;
+    height: 2rem;
+
+}
