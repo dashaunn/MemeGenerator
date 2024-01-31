@@ -37,11 +37,10 @@ body {
 }
 
 /* Form component */
-.meme-form {
+.meme {
     margin: 3rem;
     justify-content: center;
     justify-items: center;
-    align-items: center;
     max-width: 80vw;
 }
 
@@ -52,7 +51,7 @@ body {
 }
 
 .input {
-    width: 33vw;
+    width: 50vw;
     height: 2.2rem;
     border: solid #D1D5DB .05rem;
     border-radius: .5rem;
