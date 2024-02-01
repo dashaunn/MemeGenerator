@@ -6,6 +6,10 @@ body {
 
 }
 
+main {
+    padding: 2rem;
+}
+
 /* Header component */
 .page-header {
     color:white;
@@ -17,50 +21,55 @@ body {
     height: 65px;
     background: linear-gradient(to right, #672280 0%, #A626D3 100%);
 }
+
 .logo-container {
     display: flex;
     align-items: center;
     margin-left: 28px;
     gap: .5rem;
 }
+
 .logo {
     max-width: 2.6rem;
 }
+
 .header-title {
     font-family: cursive ;
     font-size: 1.5rem;
 }
+
 .header-subtitle {
     font-size: 1rem;
     font-weight: 300;
     margin-right: 28px;
 }
 
-/* Form component */
-.meme {
-    margin: 3rem;
-    justify-content: center;
-    justify-items: center;
-    max-width: 80vw;
+/* Form component */ 
+.form {
+    display: grid;
+    grid-template: 100% 100% / 1fr 1fr;
+    gap: 1rem;
 }
 
-.input-container {
-    max-width: 33vw;
-    display: flex;
-    gap: 2rem;
+.form--label {
+    font-family: "Karla", sans-serif;
 }
 
-.input {
-    width: 50vw;
-    height: 2.2rem;
-    border: solid #D1D5DB .05rem;
-    border-radius: .5rem;
-    margin-top: .5rem;
-    margin-bottom: 1.5rem;
+.form--input {
+    font-family: "Karla", sans-serif;
+    border: 1px solid #D5D4D8;
+    border-radius: .4rem;
+    text-indent: .5rem;
+    width: 100%;
+    height: 35px;
 }
 
-.form-submit {
-    width: 100vw;
-    height: 2rem;
-
+.form--button {
+    background: linear-gradient(to right, #672280 0%, #A626D3 100%);
+    grid-column: 1 / -1;
+    color: white;
+    font-family: "Karla", sans-serif;
+    border: none;
+    border-radius: .4rem;
+    cursor: pointer;
 }
