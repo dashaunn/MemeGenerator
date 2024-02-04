@@ -9,10 +9,10 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <body>
+    <main>
       <Header />
       <MemeForm />
-    </body>
+    </main>
   )
 }
 

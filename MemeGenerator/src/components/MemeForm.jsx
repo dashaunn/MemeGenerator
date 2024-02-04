@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function MemeForm() {
     return (
-        <main>
+        <section>
             <form className="form">
 
                 <div>
@@ -27,6 +27,6 @@ export default function MemeForm() {
 
                 <button className="form--button" type='submit'>Get a new meme image  🖼</button>
             </form>
-        </main>
+        </section>
     )
 }
