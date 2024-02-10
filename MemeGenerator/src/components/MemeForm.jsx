@@ -41,7 +41,7 @@ export default function MemeForm() {
                 </button>
                 
             </div>
-            <img src={memeImage} className='meme--image'/>
+            <img src={memeImage} className='meme--image' alt="meme image"/>
         </section>
     )
 }
