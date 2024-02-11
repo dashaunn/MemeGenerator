@@ -20,7 +20,7 @@ main {
     align-items: center;
     max-width: 100vw;
     height: 65px;
-    background: linear-gradient(to right, #672280 0%, #A626D3 100%);
+    background: linear-gradient(to right, #95048e 0%, #268bd3 100%);
     margin-bottom: 1.5rem;
 }
 
@@ -69,7 +69,7 @@ main {
 }
 
 .form--button {
-    background: linear-gradient(to right, #672280 0%, #A626D3 100%);
+    background: linear-gradient(to right, #95048e 0%, #268bd3 100%);
     grid-column: 1 / -1;
     color: white;
     font-family: "Karla", sans-serif;
