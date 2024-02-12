@@ -1,7 +1,7 @@
 import React from 'react'
 import memesData from '../memesData'
 
-export default function MemeForm() {
+export default function Meme() {
     const [memeImage, setMemeImage] = React.useState("");
 
     function getMemeImage() {
