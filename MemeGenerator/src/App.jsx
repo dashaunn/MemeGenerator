@@ -8,10 +8,10 @@ import Meme from './components/Meme.jsx'
 function App() {
   
   return (
-    <main>
+    <body>
       <Header />
       <Meme />
-    </main>
+    </body>
   )
 }
 
