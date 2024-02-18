@@ -43,7 +43,7 @@ export default function Meme() {
                         name="topText"
                         value={meme.topText} 
                         type='text'
-                        placeholder='That moment when'
+                        placeholder='I am busy'
                         onChange={handleChange}
                     />
                 </div>
@@ -56,7 +56,7 @@ export default function Meme() {
                         name="bottomText"
                         value={meme.bottomText}
                         type='text'
-                        placeholder='you burned your toast'
+                        placeholder='cooking here!'
                         onChange={handleChange}
                     />
                 </div>
